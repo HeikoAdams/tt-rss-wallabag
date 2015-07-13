@@ -82,7 +82,7 @@ print "<input dojoType=\"dijit.form.TextBox\" style=\"display : none\" name=\"op
 print "<input dojoType=\"dijit.form.TextBox\" style=\"display : none\" name=\"method\" value=\"save\">";
 print "<input dojoType=\"dijit.form.TextBox\" style=\"display : none\" name=\"plugin\" value=\"wallabag\">";
 print "<table width=\"100%\" class=\"prefPrefsList\">";
-print "<tr><td width=\"40%\">".__("Status.net URL")."</td>";
+print "<tr><td width=\"40%\">".__("Wallabag URL")."</td>";
 print "<td class=\"prefValue\"><input dojoType=\"dijit.form.ValidationTextBox\" required=\"1\" name=\"wallabag_url\" regExp='^(http|https)://.*' value=\"$wallabag_url\"></td></tr>";
 	print "</table>";
 	print "<p><button dojoType=\"dijit.form.Button\" type=\"submit\">".__("Save")."</button>";
